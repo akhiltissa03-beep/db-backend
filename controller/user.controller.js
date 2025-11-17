@@ -96,7 +96,7 @@ const sendConfirmationEmail = async(email, password, name) => {
                   </p>
                   <p>
                   <p class="link"> Submit Your Agreement Form </p>
-                    <a href="http://localhost:5173/employmentform"> here</a>
+                    <a href="${process.env.SIDE_URL}/employmentform"> here</a>
                   </p>
                   <p>
                     <p>Company Information:</p>
